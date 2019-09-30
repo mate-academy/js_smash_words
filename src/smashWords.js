@@ -19,7 +19,10 @@
  * @return {string}
  */
 function smashWords(words) {
-  // write code here
+  if (words.length === 0) {
+    return '';
+  }
+  return words.join(' ');
 }
 
 module.exports = smashWords;
