@@ -19,10 +19,6 @@
  * @return {string}
  */
 function smashWords(words) {
-  if (words === []) {
-    return ' ';
-  }
-
   return words.join(' ');
 }
 
