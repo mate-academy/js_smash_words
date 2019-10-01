@@ -21,7 +21,7 @@ const createSentence = length => {
     }
   }
 
-  return sentence;
+  return sentence.trim();
 };
 
 describe('smashWords', () => {
