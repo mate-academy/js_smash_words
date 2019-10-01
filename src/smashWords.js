@@ -19,9 +19,6 @@
  * @return {string}
  */
 function smashWords(words) {
-  if (words.length === 0) {
-    return '';
-  }
   return words.join(' ');
 }
 
