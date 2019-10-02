@@ -20,7 +20,7 @@
  */
 function smashWords(words) {
   // write code here
-  return (Array.isArray(words) && words.length === 0) ? '' : words.join(' ');
+  return words.join(' ');
 }
 
 module.exports = smashWords;
