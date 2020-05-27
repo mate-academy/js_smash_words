@@ -27,6 +27,7 @@ const createSentence = length => {
 describe('smashWords', () => {
   it('Should return a string', () => {
     const result = smashWords(['a', 'b']);
+
     expect(result).toBe(String(result));
   });
 
